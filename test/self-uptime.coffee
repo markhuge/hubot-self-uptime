@@ -12,7 +12,7 @@ describe 'Hubot Self Uptime', ->
 
   it 'hubot uptime', (done) ->
     @robot.adapter.on 'send', (msg,response) ->
-      expect(response[0]).to.equal "I've been running since just now"
+      expect(response[0]).to.equal "I've been running since a few seconds ago"
       done()
     @robot.adapter.receive(new Hubot.TextMessage(@user, "Hubot uptime"))
     

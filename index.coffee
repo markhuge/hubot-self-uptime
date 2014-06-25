@@ -2,7 +2,7 @@
 #   Returns hubot's uptime
 #
 # Dependencies:
-#   "relative-date": "1.1.1"
+#   "moment": ""
 #
 #
 # Commands:
@@ -12,10 +12,11 @@
 # Author:
 #   markhuge
 
-since = require 'relative-date'
+moment = require 'moment'
 
 module.exports = (robot) ->
   startup = new Date().getTime()
 
   robot.hear /uptime/i, (msg) ->
-    msg.send "I've been running since #{since(startup)}"
+    since = moment(startup).fromNow()
+    msg.send "I've been running since #{since}"
