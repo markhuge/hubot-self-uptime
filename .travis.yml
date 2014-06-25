@@ -9,3 +9,11 @@ matrix:
     - '0.11'
     - '0.8'
 services: redis
+deploy:
+  provider: npm
+  email: mark@segfawlt.net
+  api_key:
+    secure: p7NgvII8pRax5K8dioSstef6UXZVFdHc3XKc6KF87r7uQNywlMOPe1mGacg0dzr/z6IadhUdY+cgKZnv6XrqICiEIGOkcZ7x6o7ZwBb7J7+fc/kK3b9dOJx2sbco27Qq4S8qWC/pBUZ9RllQbzUZxOPJlMwPm+78AJ87QSp1Cdc=
+  on:
+    tags: true
+    repo: markhuge/hubot-self-uptime
