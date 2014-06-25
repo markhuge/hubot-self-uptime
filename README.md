@@ -1,4 +1,4 @@
-hubot-self-uptime ![Build](https://travis-ci.org/markhuge/hubot-self-uptime.svg?branch=master) ![Dependency Status](https://gemnasium.com/markhuge/hubot-self-uptime.svg)
+hubot-self-uptime ![Build](https://travis-ci.org/markhuge/hubot-self-uptime.svg?branch=master) ![Dependency Status](https://gemnasium.com/markhuge/hubot-self-uptime.svg) [![Coverage Status](https://coveralls.io/repos/markhuge/hubot-self-uptime/badge.png?branch=coveralls)](https://coveralls.io/r/markhuge/hubot-self-uptime?branch=coveralls)
 
 =================
 

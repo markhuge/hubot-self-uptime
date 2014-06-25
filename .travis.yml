@@ -17,3 +17,6 @@ deploy:
   on:
     tags: true
     repo: markhuge/hubot-self-uptime
+env:
+  global:
+    secure: E1tW0CTbqZdadQrsDnAaNAx0YGZFJhRzKcXk5IEvZt+zfmptim4smQf2WUnnMA6yLTc0gq+J2O0hzMI7H23aj89+W/nX9dnHElihSd46su4kKcnG2K0b/L6D4iOaNBki9VNYStmze5DMPsAzXELTmOFYTt6x4X6sNyXY8xbvk3U=
