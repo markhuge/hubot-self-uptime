@@ -6,7 +6,7 @@
 #
 #
 # Commands:
-#   hubot uptime - retuns uptime
+#   hubot uptime - returns uptime
 #
 #
 # Author:
