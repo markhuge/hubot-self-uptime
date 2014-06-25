@@ -1,4 +1,5 @@
-hubot-self-uptime
+hubot-self-uptime ![Build](https://travis-ci.org/markhuge/hubot-self-uptime.svg?branch=master) ![Dependency Status](https://gemnasium.com/markhuge/hubot-self-uptime.svg)
+
 =================
 
 Because hubot-uptime was already taken, and doesn't provide hubot's uptime
