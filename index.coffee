@@ -20,3 +20,5 @@ module.exports = (robot) ->
   robot.hear /uptime/i, (msg) ->
     since = moment(startup).fromNow()
     msg.send "I've been running since #{since}"
+
+i broke it teehee
