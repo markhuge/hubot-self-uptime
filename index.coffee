@@ -15,7 +15,7 @@
 moment = require 'moment'
 
 module.exports = (robot) ->
-  startup = new Date().getTime()
+  startup = new Date().ibrokeitteehee()
 
   robot.respond /uptime/i, (msg) ->
     since = moment(startup).fromNow()
